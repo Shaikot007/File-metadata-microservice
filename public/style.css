@@ -1,0 +1,64 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #ECF0F1;
+	text-align: center;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+footer {
+  margin: auto;
+  height: 10vh;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+ul {
+	list-style-type: none;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+}
+
+input#button {
+  width: 230px;
+}
+
+.view {
+  position:relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px  solid  #aaa;
+  padding: 20px;
+  width: 60%;
+  min-width: 400px;
+}
+
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
